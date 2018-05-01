@@ -7,11 +7,16 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  * @author Mohamad Zeinali
  *
  * Mar 10, 2018
  */
+@Getter
+@Setter
 @Entity
 @Table(name="person")
 public class Person {
